@@ -56,8 +56,6 @@ VALID_ADDRESS_REGEXP = '^' + ADDR_SPEC + '$'
 MX_DNS_CACHE = {}
 MX_CHECK_CACHE = {}
 
-email = 'kperez@autotropical.com'
-
 class EmailDNSValidator(object):
 
     def __init__(self, email: str):
